@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Login">
+   <children>
+      <ImageView blendMode="MULTIPLY" fitHeight="150.0" fitWidth="200.0" layoutX="173.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Uni%20DATA/Sem%205/SDA/Project/VIGOR%20PRO2.png" />
+         </image>
+      </ImageView>
+      <TextField fx:id="username" layoutX="176.0" layoutY="238.0" promptText="Username" />
+      <PasswordField fx:id="password" layoutX="176.0" layoutY="306.0" promptText="Password" />
+      <Button layoutX="224.0" layoutY="379.0" mnemonicParsing="false" onAction="#login" text="Login" />
+      <Label fx:id="lblStatus" alignment="CENTER" contentDisplay="CENTER" layoutX="126.0" layoutY="185.0" prefHeight="27.0" prefWidth="249.0" text="Status" textAlignment="CENTER" textFill="#1e14d7">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="back2" layoutX="37.0" layoutY="447.0" mnemonicParsing="false" onAction="#changescreentoMain" text="Back" />
+      <Label fx:id="isConnected" layoutX="231.0" layoutY="430.0" text="Status" />
+   </children>
+</AnchorPane>

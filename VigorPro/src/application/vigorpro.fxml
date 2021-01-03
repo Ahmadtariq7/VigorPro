@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Maincontroller">
+   <children>
+      <ImageView blendMode="MULTIPLY" fitHeight="187.0" fitWidth="211.0" layoutX="154.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Uni%20DATA/Sem%205/SDA/Project/VIGOR%20PRO2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="login" layoutX="226.0" layoutY="210.0" mnemonicParsing="false" onAction="#changescreentologin" text="Login" />
+      <Button fx:id="newuser" layoutX="221.0" layoutY="270.0" mnemonicParsing="false" onAction="#changescreentosignup" text="Sign Up" />
+      <Button fx:id="calbmi" layoutX="206.0" layoutY="334.0" mnemonicParsing="false" onAction="#changescreentoBMI" text="Calculate BMI" />
+      <Button fx:id="next" layoutX="213.0" layoutY="455.0" mnemonicParsing="false" onAction="#quotes" prefHeight="25.0" prefWidth="72.0" text="Next" />
+      <TextField fx:id="t1" alignment="CENTER" layoutX="24.0" layoutY="383.0" onAction="#quotes" prefHeight="56.0" prefWidth="453.0" text="Have a good day!">
+         <font>
+            <Font size="14.0" />
+         </font></TextField>
+   </children>
+</AnchorPane>

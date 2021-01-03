@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CalculateBMI">
+   <children>
+      <Button layoutX="218.0" layoutY="399.0" mnemonicParsing="false" onAction="#bmi" text="Calculate BMI" />
+      <Label layoutX="98.0" layoutY="178.0" text="Enter Height (m)" />
+      <Label layoutX="95.0" layoutY="263.0" text="Enter Weight (Kg)" />
+      <TextField fx:id="h1" layoutX="230.0" layoutY="174.0" promptText="Height in meters" />
+      <TextField fx:id="w1" layoutX="230.0" layoutY="259.0" promptText="Weight in Kgs" />
+      <TextField fx:id="bmi" alignment="CENTER" layoutX="150.0" layoutY="338.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <ImageView blendMode="MULTIPLY" fitHeight="150.0" fitWidth="200.0" layoutX="173.0" layoutY="7.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Uni%20DATA/Sem%205/SDA/Project/VIGOR%20PRO2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="back1" layoutX="43.0" layoutY="440.0" mnemonicParsing="false" onAction="#changescreentoMain" text="Back" textAlignment="CENTER" />
+   </children>
+</AnchorPane>

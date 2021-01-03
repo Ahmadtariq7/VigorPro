@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SignUp">
+   <children>
+      <ImageView blendMode="MULTIPLY" fitHeight="150.0" fitWidth="200.0" layoutX="173.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../Uni%20DATA/Sem%205/SDA/Project/VIGOR%20PRO2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="75.0" layoutY="168.0" text="Enter Full Name" />
+      <Label layoutX="75.0" layoutY="210.0" text="Enter Age" />
+      <Label layoutX="76.0" layoutY="258.0" text="Enter Username" />
+      <Label layoutX="75.0" layoutY="301.0" text="Enter Password" />
+      <TextField layoutX="242.0" layoutY="164.0" />
+      <TextField layoutX="242.0" layoutY="206.0" />
+      <TextField layoutX="242.0" layoutY="254.0" />
+      <TextField layoutX="242.0" layoutY="297.0" />
+      <Button fx:id="back1" layoutX="34.0" layoutY="441.0" mnemonicParsing="false" onAction="#changescreentoMain" text="Back" />
+      <Button layoutX="221.0" layoutY="343.0" mnemonicParsing="false" text="Sign Up" />
+      <Label layoutX="226.0" layoutY="401.0" text="Status" />
+   </children>
+</AnchorPane>
